@@ -28,9 +28,41 @@ header h2 {
 
 /**-----------HEADER----------*/
 
-header {
-    background-color: blanchedalmond;
+#carouselExample {
+    height: 500px;
+    width: 100%;
+    background-color: brown;
+    margin-top: 50px;
 }
+
+
+#grid{
+    background-color: yellow;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: auto;
+    width: 90%;
+}
+
+
+
+#gridVets {
+    background-color: blueviolet;
+    width: 60%;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 header h1{
     font-size: 50px;
