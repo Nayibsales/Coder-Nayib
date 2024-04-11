@@ -1,0 +1,187 @@
+/*---RESET---*/
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+/*
+h1 {
+    color:brown;
+}
+
+h2 {
+    color: bisque;
+}
+
+header h2 {
+    color: blueviolet;
+}
+
+*/
+
+/*CLASES*/ /*MODIFICAR UN ELEMENTO ESPECIFICO*/
+/*AUMENTA LA ESPECIFIDAD*/
+/*APLICANDO EN SECTION SE APLICA A TODA LA SECCION*/
+
+
+
+/**-----------HEADER----------*/
+
+header {
+    background-color: blanchedalmond;
+}
+
+header h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+header nav ul {
+    list-style: none;
+}
+header nav ul li a {
+    text-decoration: overline;
+    color: black;
+}
+
+
+/**-----------MAIN----------*/
+
+
+.hero{
+    text-align: center;
+    width: 100;
+    height: 300;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+   /* background-image: url(../img/perrofeliz.jpg);*/
+    
+}
+
+#sectionIndex{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+}
+
+
+/*PAGINA PERROS*/
+
+.Perros1{
+
+    width: 500px;
+    height: 300px;
+    background-color: violet;
+    padding: 25px;
+    margin-bottom: 25px;
+
+}
+
+.Perros2{
+
+    width: 500px;
+    height: 300px;
+    background-color: red;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.Perros3{
+
+    width: 500px;
+    height: 300px;
+    background-color: yellowgreen;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+
+.subTitulo {
+    color: black;
+}
+
+section div p {
+
+    color: blue;
+}
+
+
+.buttonPerros {
+    height: 25px;
+    width: 50px;
+    color: brown;
+}
+/*PAGINA GATO*/
+.Gato1{
+
+    width: 500px;
+    height: 300px;
+    background-color: violet;
+    padding: 25px;
+    margin-bottom: 25px;
+
+}
+
+.Gato2{
+
+    width: 500px;
+    height: 300px;
+    background-color: red;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.Gato3{
+
+    width: 500px;
+    height: 300px;
+    background-color: yellowgreen;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.buttonGato {
+    height: 25px;
+    width: 50px;
+    color: brown;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------FOOTER----------*/
+
+
+
+
+
+
+
+
+
+
+
+footer img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
