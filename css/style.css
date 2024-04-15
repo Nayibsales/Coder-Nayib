@@ -36,23 +36,33 @@ header h2 {
 }
 
 
-#grid{
+
+#gridFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
     background-color: yellow;
     margin-top: 50px;
     margin-bottom: 50px;
     height: auto;
-    width: 90%;
+    width: auto;
 }
 
 
 
 #gridVets {
     background-color: blueviolet;
-    width: 60%;  
+    width: auto;  
 }
 
+.tituloVet {
+    text-align: center;
+}
 
-
+.tituloGato {
+    text-align: center;
+}
 
 
 
