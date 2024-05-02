@@ -1,25 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Contactanos para obtener toda la informacion necesaria!"
+    />
+    <meta name="keywords" content="CONTACTO, FORMULARIO, REDES, SOCIAL" />
+
+    <link rel="stylesheet" href="../SASS/SASS.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <title>Document</title>
-</head>
-<body>
-    
-   <header>
-   <nav>
-    <ul>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="../pages/perros.html">Perros</a></li>
-        <li><a href="../pages/gatos.html">Gatos</a></li>
-        <li><a href="../pages/nosotros.html">Acerca de nosotros</a></li>
-        <li><a href="../pages/contacto.html">Contacto</a></li>
-       </ul>
-    </nav>
-    <h1>Contactanos</h1>
-    <section>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Entre Amigos</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/perros.html"
+                  >Perros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/gatos.html"
+                  >Gatos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/contacto.html"
+                  >Contactanos!</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/nosotros.html"
+                  >Nosotros</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <form class="form">
+          <div class="form-container">
+            <h1 class="form-title">Contactanos!</h1>
+
+            <p class="form-contain">
+              <label for="nombre">Nombre:</label>
+              <input type="text" class="form-imput" placeholder="Nombre" />
+            </p>
+            <p class="form-contain">
+              <label for="apellido">Apellido:</label>
+              <input type="text" class="form-imput" placeholder="Apellido" />
+            </p>
+            <p class="form-contain">
+              <label for="tel">Telefono:</label>
+              <input type="number" class="form-imput" placeholder="Telefono" />
+            </p>
+            <p class="form-contain">
+              <label for="email">Email:</label>
+              <input type="email" class="form-imput" placeholder="Email" />
+            </p>
+            <p class="form-contain">
+              <label for="mensaje">Mensaje:</label>
+              <textarea
+                class="form-imput form-message"
+                placeholder="Mensaje"
+              ></textarea>
+            </p>
+
+            <input class="btn-form" type="submit" value="Enviar" />
+          </div>
+        </form>
+      </main>
+
+      <!--     <section>
         <form action="" method="" enctype="">
          <div>
               <label for="nombre">Nombre</label>
@@ -66,17 +175,38 @@
            <input type="reset">
          </div>
         </form>
-   </section>
-   </header> 
-   <main>
-    
-   </main>
-   <footer>
-            <footer id="redes">
-                <h3>Entre amigos </h3>
-                <img src="../img/instagram.jpg" alt="instagram">
-                <img src="../img/facebook.jpg" alt="facebook">
-                <img src="../img/whatsapp.jpg" alt="whatsapp">
-        </footer>
-</body>
+   </section> -->
+    </header>
+    <main></main>
+
+    <footer>
+      <div class="card text-center">
+        <div class="card-header">Featured</div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">
+            With supporting text below as a natural lead-in to additional
+            content.
+          </p>
+
+          <a href="https://www.instagram.com/">
+            <img class="imgFooter" src="../img/instagram.jpg" alt="instagram" />
+          </a>
+          <a href="https://www.facebook.com/">
+            <img class="imgFooter" src="../img/facebook.jpg" alt="facebook" />
+          </a>
+          <a href="#">
+            <img class="imgFooter" src="../img/whatsapp.jpg" alt="whatsapp" />
+          </a>
+        </div>
+        <div class="card-footer text-body-secondary">2 days ago</div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

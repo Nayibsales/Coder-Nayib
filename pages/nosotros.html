@@ -1,39 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <meta name="description" content="Todo acerca de nosotros!">
+    <meta name="keywords" content="NOSOTROS, UBICACION , DESCRIPCION, MAPA">
+
+  <link rel="stylesheet" href="../SASS/SASS.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>Document</title>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/perros.html">Perros</a></li>
-                <li><a href="../pages/gatos.html">Gatos</a></li>
-                <li><a href="../pages/nosotros.html">Acerca de nosotros</a></li>
-                <li><a href="../pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-        <h1>Acerca de nosotros</h1>
-        <p>Soy un joven de Córdoba, Agentina. junto con mi hermano nos propusimos  la  misión de mejorar las vidas de las mascotas un poco mas.
-            Mediante concejos, tips, nuestro catalogo de productos y equipo especializado de veterinarios, aportamos seguridad, confianza y sobre todo felicidad. </p>
-            <section>
-            <h2> Ubicacion</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.9142618904198!2d-64.2380266!3d-31.36134510000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329935b68e47bb%3A0x42ed7f6c1c2665fb!2zQXYuIFJhZmFlbCBOw7rDsWV6LCBDw7NyZG9iYQ!5e0!3m2!1ses-419!2sar!4v1710092795206!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <p>Encontrarnos en avenida Rafael Nuñes al 4500.
-                Teléfono celular: 0351669881
-                Correo electrónico: Entreamigos@gmail.com </p>
-            </section>
-        </header> 
-        <footer>
-            <footer id="redes">
-                <h3>Entre amigos </h3>
-                <img src="../img/instagram.jpg" alt="instagram">
-                <img src="../img/facebook.jpg" alt="facebook">
-                <img src="../img/whatsapp.jpg" alt="whatsapp">
-        </footer>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Entre Amigos</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/perros.html">Perros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/gatos.html">Gatos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contactanos!</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+
+  <header>
+
+    <h1 class="titulo-nosotros">Acerca de nosotros</h1>
+
+    <p>Soy un joven de Córdoba, Agentina. junto con mi hermano nos propusimos la misión de mejorar las vidas de las
+      mascotas un poco mas.
+      Mediante concejos, tips, nuestro catalogo de productos y equipo especializado de veterinarios, aportamos
+      seguridad, confianza y sobre todo felicidad.
+    </p>
+
+    <section>
+
+      <h2> Ubicacion</h2>
+
+      <p>Encontrarnos en avenida Rafael Nuñes al 4500.
+        Teléfono celular: 0351669881
+        Correo electrónico: Entreamigos@gmail.com </p>
+
+    </section>
+
+  </header>
+
+
+  <aside class="aside-nosotros">
+    <img class="maps" src="../img/maps.png" width="400" height="400" style="border:0;"></img>
+  </aside>
+
+  <footer>
+    <div class="card text-center">
+      <div class="card-header">
+        Featured
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+        <a href="https://www.instagram.com/">
+          <img class="imgFooter" src="../img/instagram.jpg" alt="instagram">
+        </a>
+        <a href="https://www.facebook.com/">
+          <img class="imgFooter" src="../img/facebook.jpg" alt="facebook">
+        </a>
+        <a href="#">
+          <img class="imgFooter" src="../img/whatsapp.jpg" alt="whatsapp">
+        </a>
+      </div>
+      <div class="card-footer text-body-secondary">
+        2 days ago
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
