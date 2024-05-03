@@ -4,12 +4,29 @@
   width: $width;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 
 @import "_varTitulos.scss";
 
 /*@import "varContent.scss";*/
 
 
+/* INDEX */
+
+#img1_home {
+  @include sizes(500px, 100%);
+  object-fit: cover;
+  overflow: hidden;
+}
+
+#carouselExample {
+  position: relative;
+  bottom: -64px;
+}
 
 /* PERROS */
 
@@ -126,3 +143,154 @@ footer {
 
   /* EXTRAS */
 
+
+
+
+
+
+
+  $color_1: black;
+$color_2: blue;
+$color_3: brown;
+$font-family_1: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$background-color_1: brown;
+$background-color_2: yellow;
+$background-color_3: blueviolet;
+$background-color_4: aqua;
+$background-color_5: violet;
+$background-color_6: red;
+$background-color_7: yellowgreen;
+
+
+
+/*-----------FOOTER----------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+#carouselExample {
+	height: 500px;
+	width: 100%;
+	margin-top: 50px;
+}
+#gridFlex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-content: center;
+/* 	background-color: $background-color_2; */
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: auto;
+	width: auto;
+}
+#gridVets {
+/* 	background-color: $background-color_3; */
+	width: auto;
+}
+.tituloVet {
+	text-align: center;
+}
+.tituloGato {
+	text-align: center;
+}
+header {
+	h1 {
+		font-size: 50px;
+		font-family: $font-family_1;
+		font-weight: 900;
+	}
+	nav {
+		ul {
+			list-style: none;
+			li {
+				a {
+					text-decoration: overline;
+					color: $color_1;
+				}
+			}
+		}
+	}
+}
+.hero {
+	text-align: center;
+	width: 100;
+	height: 300;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#sectionIndex {
+	height: 500px;
+	width: 500px;
+	background-color: $background-color_4;
+}
+.Perros1 {
+	width: 500px;
+	height: 300px;
+	background-color: $background-color_5;
+	padding: 25px;
+	margin-bottom: 25px;
+}
+.Perros2 {
+	width: 500px;
+	height: 300px;
+	background-color: $background-color_6;
+	padding: 25px;
+	margin-bottom: 25px;
+}
+.Perros3 {
+	width: 500px;
+	height: 300px;
+	background-color: $background-color_7;
+	padding: 25px;
+	margin-bottom: 25px;
+}
+.subTitulo {
+	color: $color_1;
+}
+section {
+	div {
+		p {
+			color: $color_2;
+		}
+	}
+}
+.buttonPerros {
+	height: 25px;
+	width: 50px;
+	color: $color_3;
+}
+.Gato1 {
+	width: 500px;
+	height: 300px;
+	background-color: $background-color_5;
+	padding: 25px;
+	margin-bottom: 25px;
+}
+.Gato2 {
+	width: 500px;
+	height: 300px;
+	background-color: $background-color_6;
+	padding: 25px;
+	margin-bottom: 25px;
+}
+.Gato3 {
+	width: 500px;
+	height: 300px;
+	background-color: $background-color_7;
+	padding: 25px;
+	margin-bottom: 25px;
+}
+.buttonGato {
+	height: 25px;
+	width: 50px;
+	color: $color_3;
+}
+footer {
+	img {
+		width: 50px;
+		height: 50px;
+	}
+}

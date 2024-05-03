@@ -1,4 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /*@import "varContent.scss";*/
+/* INDEX */
+#img1_home {
+  height: 500px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+#carouselExample {
+  position: relative;
+  bottom: -64px;
+}
+
 /* PERROS */
 /* GATOS */
 /* CONTACTO */
@@ -97,4 +116,142 @@ footer .imgFooter {
   width: 5%;
 }
 
-/* EXTRAS *//*# sourceMappingURL=SASS.css.map */
+/* EXTRAS */
+/*-----------FOOTER----------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#carouselExample {
+  height: 500px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+#gridFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  /* 	background-color: $background-color_2; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: auto;
+  width: auto;
+}
+
+#gridVets {
+  /* 	background-color: $background-color_3; */
+  width: auto;
+}
+
+.tituloVet {
+  text-align: center;
+}
+
+.tituloGato {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: overline;
+  color: black;
+}
+
+.hero {
+  text-align: center;
+  width: 100;
+  height: 300;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#sectionIndex {
+  height: 500px;
+  width: 500px;
+  background-color: aqua;
+}
+
+.Perros1 {
+  width: 500px;
+  height: 300px;
+  background-color: violet;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+.Perros2 {
+  width: 500px;
+  height: 300px;
+  background-color: red;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+.Perros3 {
+  width: 500px;
+  height: 300px;
+  background-color: yellowgreen;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+.subTitulo {
+  color: black;
+}
+
+section div p {
+  color: blue;
+}
+
+.buttonPerros {
+  height: 25px;
+  width: 50px;
+  color: brown;
+}
+
+.Gato1 {
+  width: 500px;
+  height: 300px;
+  background-color: violet;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+.Gato2 {
+  width: 500px;
+  height: 300px;
+  background-color: red;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+.Gato3 {
+  width: 500px;
+  height: 300px;
+  background-color: yellowgreen;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+.buttonGato {
+  height: 25px;
+  width: 50px;
+  color: brown;
+}
+
+footer img {
+  width: 50px;
+  height: 50px;
+}/*# sourceMappingURL=SASS.css.map */
