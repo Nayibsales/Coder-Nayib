@@ -5,7 +5,7 @@
 
 /*@import "varContent.scss";*/
 /* INDEX */
-#img1_home {
+#img-carrousel {
   height: 500px;
   width: 100%;
   -o-object-fit: cover;
@@ -21,11 +21,6 @@
 /* PERROS */
 /* GATOS */
 /* CONTACTO */
-.section-contacto {
-  grid-area: section;
-  margin-top: 35px;
-}
-
 .main-contacto {
   margin-left: 50px;
   display: grid;
@@ -62,9 +57,12 @@
 }
 
 .form {
-  margin-top: 100px;
   display: flex;
   background-color: rgb(245, 236, 223);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .form-container {
@@ -97,7 +95,15 @@
 
 /* NOSOTROS */
 .titulo-nosotros {
-  color: #070606;
+  color: #050505;
+  display: flex;
+  justify-content: center;
+}
+
+.subTitulo-nosotros {
+  color: #050505;
+  display: flex;
+  justify-content: center;
 }
 
 .aside-nosotros {
@@ -105,6 +111,10 @@
   justify-content: center;
   align-self: center;
   justify-self: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 .aside-nosotros .maps:hover {
   transform: scale(1.2, 1.2);

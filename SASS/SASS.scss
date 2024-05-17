@@ -17,11 +17,14 @@
 
 /* INDEX */
 
-#img1_home {
+
+#img-carrousel {
   @include sizes(500px, 100%);
   object-fit: cover;
   overflow: hidden;
 }
+
+
 
 #carouselExample {
   position: relative;
@@ -38,11 +41,7 @@
 
 
 /* CONTACTO */
-
-.section-contacto {
-    grid-area: section;
-    margin-top: 35px;
-  }
+  
   
   
   .main-contacto {
@@ -80,9 +79,12 @@
   }
   
   .form {
-    margin-top: 100px;
     display: flex;
     background-color: rgb(245, 236, 223);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
   .form-container {
     background-color: #fff;
@@ -118,6 +120,15 @@
 
   .titulo-nosotros {
     color: $col-tit;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .subTitulo-nosotros {
+    color: $col-tit;
+    display: flex;
+    justify-content: center;
   }
 
   .aside-nosotros {
@@ -125,6 +136,10 @@
     justify-content: center;
     align-self: center;
     justify-self: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     .maps:hover {
       transform: scale(1.2, 1.2);
     }
