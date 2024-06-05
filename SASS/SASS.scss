@@ -12,7 +12,6 @@
 
 @import "_varTitulos.scss";
 
-/*@import "varContent.scss";*/
 
 
 /* INDEX */
@@ -24,19 +23,20 @@
   overflow: hidden;
 }
 
+.tituloIndex {
+
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 4rem;
+  margin-bottom: -3.5rem;
+}
 
 
 #carouselExample {
   position: relative;
   bottom: -64px;
 }
-
-/* PERROS */
-
-
-
-
-/* GATOS */
 
 
 
@@ -146,7 +146,6 @@
   }
 
 
-  /* FOOTER */
 
 
 footer {
@@ -178,7 +177,7 @@ $background-color_7: yellowgreen;
 
 
 
-/*-----------FOOTER----------*/
+
 * {
 	margin: 0;
 	padding: 0;

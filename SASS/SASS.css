@@ -3,7 +3,6 @@
   padding: 0;
 }
 
-/*@import "varContent.scss";*/
 /* INDEX */
 #img-carrousel {
   height: 500px;
@@ -13,13 +12,19 @@
   overflow: hidden;
 }
 
+.tituloIndex {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 4rem;
+  margin-bottom: -3.5rem;
+}
+
 #carouselExample {
   position: relative;
   bottom: -64px;
 }
 
-/* PERROS */
-/* GATOS */
 /* CONTACTO */
 .main-contacto {
   margin-left: 50px;
@@ -120,14 +125,12 @@
   transform: scale(1.2, 1.2);
 }
 
-/* FOOTER */
 footer .imgFooter {
   height: 5%;
   width: 5%;
 }
 
 /* EXTRAS */
-/*-----------FOOTER----------*/
 * {
   margin: 0;
   padding: 0;
